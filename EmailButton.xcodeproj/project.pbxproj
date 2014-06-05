@@ -21,6 +21,7 @@
 		7116F6D019410479006C8F06 /* EmailButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116F6CF19410479006C8F06 /* EmailButtonTests.m */; };
 		7116F6DC194104B3006C8F06 /* EBMailButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116F6DA194104B3006C8F06 /* EBMailButtonViewController.m */; };
 		7116F6DD194104B3006C8F06 /* EBMailButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7116F6DB194104B3006C8F06 /* EBMailButtonViewController.xib */; };
+		7116F6DF19410557006C8F06 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6DE19410557006C8F06 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		7116F6D9194104B3006C8F06 /* EBMailButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBMailButtonViewController.h; sourceTree = "<group>"; };
 		7116F6DA194104B3006C8F06 /* EBMailButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBMailButtonViewController.m; sourceTree = "<group>"; };
 		7116F6DB194104B3006C8F06 /* EBMailButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBMailButtonViewController.xib; sourceTree = "<group>"; };
+		7116F6DE19410557006C8F06 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7116F6DF19410557006C8F06 /* MessageUI.framework in Frameworks */,
 				7116F6AD19410479006C8F06 /* CoreGraphics.framework in Frameworks */,
 				7116F6AF19410479006C8F06 /* UIKit.framework in Frameworks */,
 				7116F6AB19410479006C8F06 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		7116F6A919410479006C8F06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7116F6DE19410557006C8F06 /* MessageUI.framework */,
 				7116F6AA19410479006C8F06 /* Foundation.framework */,
 				7116F6AC19410479006C8F06 /* CoreGraphics.framework */,
 				7116F6AE19410479006C8F06 /* UIKit.framework */,
