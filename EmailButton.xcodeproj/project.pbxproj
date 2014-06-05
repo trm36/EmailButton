@@ -19,6 +19,8 @@
 		7116F6C619410479006C8F06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6AE19410479006C8F06 /* UIKit.framework */; };
 		7116F6CE19410479006C8F06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7116F6CC19410479006C8F06 /* InfoPlist.strings */; };
 		7116F6D019410479006C8F06 /* EmailButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116F6CF19410479006C8F06 /* EmailButtonTests.m */; };
+		7116F6DC194104B3006C8F06 /* EBMailButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116F6DA194104B3006C8F06 /* EBMailButtonViewController.m */; };
+		7116F6DD194104B3006C8F06 /* EBMailButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7116F6DB194104B3006C8F06 /* EBMailButtonViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		7116F6CB19410479006C8F06 /* EmailButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmailButtonTests-Info.plist"; sourceTree = "<group>"; };
 		7116F6CD19410479006C8F06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7116F6CF19410479006C8F06 /* EmailButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailButtonTests.m; sourceTree = "<group>"; };
+		7116F6D9194104B3006C8F06 /* EBMailButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBMailButtonViewController.h; sourceTree = "<group>"; };
+		7116F6DA194104B3006C8F06 /* EBMailButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBMailButtonViewController.m; sourceTree = "<group>"; };
+		7116F6DB194104B3006C8F06 /* EBMailButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBMailButtonViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				7116F6B919410479006C8F06 /* EBAppDelegate.h */,
 				7116F6BA19410479006C8F06 /* EBAppDelegate.m */,
+				7116F6D9194104B3006C8F06 /* EBMailButtonViewController.h */,
+				7116F6DA194104B3006C8F06 /* EBMailButtonViewController.m */,
+				7116F6DB194104B3006C8F06 /* EBMailButtonViewController.xib */,
 				7116F6BC19410479006C8F06 /* Images.xcassets */,
 				7116F6B119410479006C8F06 /* Supporting Files */,
 			);
@@ -222,6 +230,7 @@
 			files = (
 				7116F6B519410479006C8F06 /* InfoPlist.strings in Resources */,
 				7116F6BD19410479006C8F06 /* Images.xcassets in Resources */,
+				7116F6DD194104B3006C8F06 /* EBMailButtonViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +251,7 @@
 			files = (
 				7116F6B719410479006C8F06 /* main.m in Sources */,
 				7116F6BB19410479006C8F06 /* EBAppDelegate.m in Sources */,
+				7116F6DC194104B3006C8F06 /* EBMailButtonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
